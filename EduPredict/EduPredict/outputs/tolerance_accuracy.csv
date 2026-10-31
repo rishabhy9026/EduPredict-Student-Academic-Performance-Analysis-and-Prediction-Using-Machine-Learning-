@@ -1,0 +1,5 @@
+,within 1 mark,within 2 marks,within 5 marks
+Linear Regression,98.7,99.6,99.6
+Decision Tree,46.7,75.7,99.2
+Random Forest,61.6,90.8,99.5
+KNN,48.0,79.9,99.2

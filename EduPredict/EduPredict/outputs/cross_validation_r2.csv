@@ -1,0 +1,5 @@
+Model,CV_R2_mean,CV_R2_std,Test_R2
+Linear Regression,0.7166,0.091,0.825
+Decision Tree,0.5314,0.0679,0.6023
+Random Forest,0.6342,0.0798,0.7283
+KNN,0.5574,0.0645,0.6482

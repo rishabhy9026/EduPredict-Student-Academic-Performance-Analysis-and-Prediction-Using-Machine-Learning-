@@ -1,0 +1,120 @@
+{
+  "best_model": "Linear Regression",
+  "test_metrics": {
+    "R2": 0.825,
+    "MAE": 0.416,
+    "MSE": 2.3142,
+    "RMSE": 1.5213
+  },
+  "feature_order": [
+    "Hours_Studied",
+    "Attendance",
+    "Parental_Involvement",
+    "Access_to_Resources",
+    "Extracurricular_Activities",
+    "Sleep_Hours",
+    "Previous_Scores",
+    "Motivation_Level",
+    "Internet_Access",
+    "Tutoring_Sessions",
+    "Family_Income",
+    "Teacher_Quality",
+    "School_Type",
+    "Peer_Influence",
+    "Physical_Activity",
+    "Learning_Disabilities",
+    "Parental_Education_Level",
+    "Distance_from_Home",
+    "Gender"
+  ],
+  "numeric_ranges": {
+    "Hours_Studied": [
+      1,
+      44
+    ],
+    "Attendance": [
+      60,
+      100
+    ],
+    "Sleep_Hours": [
+      4,
+      10
+    ],
+    "Previous_Scores": [
+      50,
+      100
+    ],
+    "Tutoring_Sessions": [
+      0,
+      8
+    ],
+    "Physical_Activity": [
+      0,
+      6
+    ]
+  },
+  "categorical_options": {
+    "Parental_Involvement": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "Access_to_Resources": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "Extracurricular_Activities": [
+      "No",
+      "Yes"
+    ],
+    "Motivation_Level": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "Internet_Access": [
+      "No",
+      "Yes"
+    ],
+    "Family_Income": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "Teacher_Quality": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "School_Type": [
+      "Private",
+      "Public"
+    ],
+    "Peer_Influence": [
+      "Negative",
+      "Neutral",
+      "Positive"
+    ],
+    "Learning_Disabilities": [
+      "No",
+      "Yes"
+    ],
+    "Parental_Education_Level": [
+      "College",
+      "High School",
+      "Postgraduate"
+    ],
+    "Distance_from_Home": [
+      "Far",
+      "Moderate",
+      "Near"
+    ],
+    "Gender": [
+      "Female",
+      "Male"
+    ]
+  },
+  "sklearn_version": "1.9.1",
+  "random_state": 42
+}
